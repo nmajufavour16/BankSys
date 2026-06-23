@@ -1,0 +1,50 @@
+{
+    "phayvo": {
+        "first_name": "Favour",
+        "last_name": "Nmaju",
+        "password": "Phayvo123.",
+        "balance": 950000.0,
+        "transactions": [
+            {
+                "type": "ACCOUNT_CREATED",
+                "amount": 0,
+                "timestamp": "2026-06-22 09:53:03"
+            },
+            {
+                "type": "DEPOSIT",
+                "amount": 1000000.0,
+                "timestamp": "2026-06-22 09:54:36"
+            },
+            {
+                "type": "TRANSFER_SENT",
+                "recipient": "urch",
+                "amount": 50000.0,
+                "timestamp": "2026-06-22 12:21:36"
+            }
+        ]
+    },
+    "urch": {
+        "first_name": "Jjjj",
+        "last_name": "Uuuii",
+        "password": "Python1.",
+        "balance": 127787.0,
+        "transactions": [
+            {
+                "type": "ACCOUNT_CREATED",
+                "amount": 0,
+                "timestamp": "2026-06-22 10:07:37"
+            },
+            {
+                "type": "DEPOSIT",
+                "amount": 77787.0,
+                "timestamp": "2026-06-22 10:09:18"
+            },
+            {
+                "type": "TRANSFER_RECEIVED",
+                "sender": "phayvo",
+                "amount": 50000.0,
+                "timestamp": "2026-06-22 12:21:36"
+            }
+        ]
+    }
+}
